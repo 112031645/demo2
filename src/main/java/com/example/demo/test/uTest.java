@@ -9,6 +9,7 @@ import org.junit.Test;
 public class uTest {
 
     @Test
+
     public void test() {
         uCon ucon = uCon.builder().id(1).acc("魏文聪").pass("123")
                 .phone("18672859554").build();
