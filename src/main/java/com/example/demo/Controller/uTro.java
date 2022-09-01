@@ -19,6 +19,7 @@ public class uTro {
     public String selerall(Model model) {
         List<uCon> list = user.sel();
         model.addAttribute("list",list);
+
         return "demo";
     }
 
