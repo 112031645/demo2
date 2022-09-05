@@ -1,25 +1,25 @@
 package com.example.demo.config;
 
 import com.alibaba.fastjson.annotation.JSONField;
-import lombok.Builder;
-import lombok.Data;
-import lombok.ToString;
+import lombok.*;
 
 
 @Data
 @Builder
 @ToString
+@NoArgsConstructor
+@AllArgsConstructor
 public class uCon {
 
-    @JSONField(name = "ID")
+    /*@JSONField(name = "ID")*/
     public int id;
 
-    @JSONField(name = "Acc")
+    /*@JSONField(name = "Acc")*/
     public String acc;
 
-    @JSONField(name = "Pass")
+    /*@JSONField(name = "Pass")*/
     public String pass;
 
-    @JSONField(name = "Phone")
+   /* @JSONField(name = "Phone")*/
     public String phone;
 }

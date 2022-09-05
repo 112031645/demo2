@@ -8,7 +8,6 @@ import java.util.List;
 
 @Repository
 @Mapper
-
 public interface uMap {
     List<uCon> sel();
 }
